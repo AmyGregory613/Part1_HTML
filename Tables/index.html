@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Tables
+Create a table that is six columns wide and four rows tall. The third cell of the first row will span two rows. The sixth cell of the first row will span three rows. The first cell of the second row will span three rows. The fourth cell of the second row will span two columns. The second cell of the third row will span four columns. The second cell of the fourth row will span five columns. -->
+    <meta charset="UTF-8">
+    <title>Tables</title>
+    <style type="text/css">
+    table {
+        width: 50%;
+    }
+
+    table tr td {
+        border: 1px solid black;
+        width: 15%;
+    }
+    </style>
+</head>
+
+<body>
+	<table border = "1">
+		<tr>
+			<td>a</td>
+			<td>a</td>
+			<td rowspan="2">a</td>
+			<td>a</td>
+			<td>a</td>
+			<td rowspan="3">a</td>
+		</tr>
+		<tr>
+			<td rowspan="3">b</td>
+			<td>b</td>
+			<!-- <td>b</td> -->
+			<td colspan="2">b</td>
+			<!-- <td>b</td> -->
+			<!-- <td>b</td> -->
+		</tr>
+		<tr>
+			<!-- <td>c</td> -->
+			<td colspan="4">c</td>
+			<!-- <td>c</td>
+			<td>c</td>
+			<td>c</td> -->
+			<!-- <td>c</td> -->
+		</tr>
+		<tr>
+			<!-- <td>d</td> -->
+			<td colspan="5">d</td>
+			<!-- <td>d</td>
+			<td>d</td>
+			<td>d</td>
+			<td>d</td> -->
+		</tr>
+	</table>
+</body>
+
+</html>
